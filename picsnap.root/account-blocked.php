@@ -1,0 +1,1 @@
+<h2>Your account is blocked, please contact your administrator</h2>

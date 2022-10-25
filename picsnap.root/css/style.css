@@ -1,0 +1,83 @@
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya+Sans:wght@400;500&display=swap');
+
+/* font-family: 'Abril Fatface',
+cursive;*/
+
+/* font-family: 'Alegreya Sans',
+sans-serif; */
+
+/* MAIN COLOR VARIABLES */
+:root {
+  --dark-neutral: #223843;
+  --light-neutral: #EFF1F3;
+  --bold-main: #A761FF;
+  --complimentary-color: #879AC5;
+}
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: var(--dark-neutral);
+  background-color: #c7a47d26;
+}
+
+.picture2 {
+  display: none;
+}
+
+.thumbnail:hover .picture1 {
+  display: none;
+}
+
+.thumbnail:hover .picture2 {
+  display: block;
+}
+
+.detail-btn {
+  margin: 10px;
+}
+
+/* NAVBAR */
+
+nav {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.navbar-homingpigeon {
+  justify-content: space-between;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-homingpigeon .navbar-brand img {
+  width: 50px;
+  transition: all 0.5s ease-in;
+}
+
+.navbar-homingpigeon .navbar-brand:hover img {
+  transform: scale(1.2);
+}
+
+.navbar-homingpigeon .navbar-brand p {
+  color: var(--dark-neutral);
+}
+
+/* HEADER */
+header {
+  color: white;
+  height: 250px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 99.58%, rgba(0, 0, 0, 0) 100%), url("../images/header-image.jpeg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h2 {
+  font-family: 'Abril Fatface', cursive;
+}

@@ -1,0 +1,11 @@
+Ali: index.php, postcard-detail.php
+Alina: header.php, favourites.php
+Edgar: login.php, signup.php
+Mitch: footer.php,checkout.php
+Rami: admin-postcard.php, admin-accounts.php
+
+
+
+
+
+
